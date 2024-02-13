@@ -17,6 +17,12 @@
   "require-dev": {
     "phpunit/phpunit": "^9.5"
   },
+  "suggest": {
+    "eufony/marshaller-implementation": "Virtual package for Marshaller implementations."
+  },
+  "provide": {
+    "eufony/marshaller-implementation": "self.version"
+  },
   "autoload": {
     "psr-4": {
       "Eufony\\Marshaller\\": [ "src/Exception/", "src/" ]
