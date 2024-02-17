@@ -35,7 +35,10 @@ Interested? [Here's how to get started.](#getting-started)
 *eufony/marshaller* is released as a [Packagist](https://packagist.org/) package and can be easily installed
 via [Composer](https://getcomposer.org/) with:
 
-    composer require "eufony/marshaller"
+    composer require "eufony/marshaller:v1.x-dev"
+
+> **Warning**: This package ***does not have any stable releases*** yet (not even a v0.x pre-release) and is currently
+> ***unstable***. Expect frequent breaking changes and instability!
 
 ### Basic Usage
 
